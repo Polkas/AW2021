@@ -1,0 +1,3 @@
+password_pyaescrypt:
+stata_path: "/Applications/Stata"
+stata_type: "se"

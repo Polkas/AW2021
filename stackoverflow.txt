@@ -1,0 +1,7 @@
+# Pzykłady
+https://stats.stackexchange.com/questions/612/is-pca-followed-by-a-rotation-such-as-varimax-still-pca/136936#136936
+https://stats.stackexchange.com/questions/95038/how-does-factor-analysis-explain-the-covariance-while-pca-explains-the-variance/95106#95106
+https://stats.stackexchange.com/questions/65692/how-to-visualize-what-canonical-correlation-analysis-does-in-comparison-to-what/65817#65817
+https://stats.stackexchange.com/questions/134282/relationship-between-svd-and-pca-how-to-use-svd-to-perform-pca
+https://math.stackexchange.com/questions/3869/what-is-the-intuitive-relationship-between-svd-and-pca
+https://stats.stackexchange.com/questions/200250/can-svd-be-used-to-perform-factor-analyis
