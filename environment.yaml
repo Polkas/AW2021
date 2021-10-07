@@ -1,141 +1,107 @@
-name: py39_aw
+name: py39_aw_wne
 channels:
   - defaults
-  - conda-forge
 dependencies:
-  - anyio=2.2.0=py39hecd8cb5_1
-  - appnope=0.1.2=py39hecd8cb5_1001
-  - argon2-cffi=20.1.0=py39h9ed2024_1
+  - anyio=2.2.0=py38haa95532_2
+  - argon2-cffi=20.1.0=py38h2bbff1b_1
   - async_generator=1.10=pyhd3eb1b0_0
   - attrs=21.2.0=pyhd3eb1b0_0
   - babel=2.9.1=pyhd3eb1b0_0
   - backcall=0.2.0=pyhd3eb1b0_0
-  - blas=1.0=mkl
   - bleach=4.0.0=pyhd3eb1b0_0
-  - bottleneck=1.3.2=py39he3068b8_1
-  - brotli=1.0.9=hb1e8313_2
-  - brotlipy=0.7.0=py39h9ed2024_1003
-  - ca-certificates=2021.7.5=hecd8cb5_1
-  - certifi=2021.5.30=py39hecd8cb5_0
-  - cffi=1.14.6=py39h2125817_0
+  - brotlipy=0.7.0=py38h2bbff1b_1003
+  - ca-certificates=2021.7.5=haa95532_1
+  - certifi=2021.5.30=py38haa95532_0
+  - cffi=1.14.6=py38h2bbff1b_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
-  - cryptography=3.4.7=py39h2fd3fbb_0
-  - debugpy=1.4.1=py39h23ab428_0
+  - colorama=0.4.4=pyhd3eb1b0_0
+  - cryptography=3.4.8=py38h71e12ea_0
+  - debugpy=1.4.1=py38hd77b12b_0
   - decorator=5.1.0=pyhd3eb1b0_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
-  - entrypoints=0.3=py39hecd8cb5_0
-  - fonttools=4.25.0=pyhd3eb1b0_0
-  - freetype=2.10.4=ha233b18_0
+  - entrypoints=0.3=py38_0
   - idna=3.2=pyhd3eb1b0_0
-  - importlib-metadata=4.8.1=py39hecd8cb5_0
+  - importlib-metadata=4.8.1=py38haa95532_0
   - importlib_metadata=4.8.1=hd3eb1b0_0
-  - intel-openmp=2021.3.0=hecd8cb5_3375
-  - ipykernel=6.2.0=py39hecd8cb5_1
+  - ipykernel=6.4.1=py38haa95532_1
+  - ipython=7.27.0=py38hd4e2768_0
   - ipython_genutils=0.2.0=pyhd3eb1b0_1
-  - jedi=0.18.0=py39hecd8cb5_1
+  - jedi=0.18.0=py38haa95532_1
   - jinja2=3.0.1=pyhd3eb1b0_0
-  - joblib=1.0.1=pyhd3eb1b0_0
-  - jpeg=9d=h9ed2024_0
   - json5=0.9.6=pyhd3eb1b0_0
   - jsonschema=3.2.0=pyhd3eb1b0_2
   - jupyter_client=7.0.1=pyhd3eb1b0_0
-  - jupyter_core=4.7.1=py39hecd8cb5_0
-  - jupyter_server=1.4.1=py39hecd8cb5_0
+  - jupyter_core=4.7.1=py38haa95532_0
+  - jupyter_server=1.4.1=py38haa95532_0
   - jupyterlab=3.1.7=pyhd3eb1b0_0
   - jupyterlab_pygments=0.1.2=py_0
   - jupyterlab_server=2.8.1=pyhd3eb1b0_0
-  - lcms2=2.12=hf1fd2bf_0
-  - libcxx=12.0.0=h2f01273_0
-  - libffi=3.3=hb1e8313_2
-  - libgfortran=3.0.1=h93005f0_2
-  - libpng=1.6.37=ha441bb4_0
-  - libsodium=1.0.18=h1de35cc_0
-  - libtiff=4.2.0=h87d7836_0
-  - libwebp-base=1.2.0=h9ed2024_0
-  - llvm-openmp=12.0.0=h0dcd299_1
-  - lz4-c=1.9.3=h23ab428_1
-  - markupsafe=2.0.1=py39h9ed2024_0
-  - matplotlib-base=3.4.2=py39h8b3ea08_0
-  - mistune=0.8.4=py39h9ed2024_1000
-  - mkl=2021.3.0=hecd8cb5_517
-  - mkl-service=2.4.0=py39h9ed2024_0
-  - mkl_fft=1.3.0=py39h4a7008c_2
-  - mkl_random=1.2.2=py39hb2f4e1b_0
-  - munkres=1.1.4=py_0
+  - m2w64-gcc-libgfortran=5.3.0=6
+  - m2w64-gcc-libs=5.3.0=7
+  - m2w64-gcc-libs-core=5.3.0=7
+  - m2w64-gmp=6.1.0=2
+  - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
+  - markupsafe=2.0.1=py38h2bbff1b_0
+  - matplotlib-inline=0.1.2=pyhd3eb1b0_2
+  - mistune=0.8.4=py38he774522_1000
+  - msys2-conda-epoch=20160418=1
   - nbclassic=0.2.6=pyhd3eb1b0_0
   - nbclient=0.5.3=pyhd3eb1b0_0
-  - nbconvert=6.1.0=py39hecd8cb5_0
+  - nbconvert=6.1.0=py38haa95532_0
   - nbformat=5.1.3=pyhd3eb1b0_0
-  - ncurses=6.2=h0a44026_1
   - nest-asyncio=1.5.1=pyhd3eb1b0_0
-  - notebook=6.4.3=py39hecd8cb5_0
-  - numexpr=2.7.3=py39h5873af2_1
-  - numpy-base=1.20.3=py39he0bd621_0
-  - olefile=0.46=pyhd3eb1b0_0
-  - openjpeg=2.4.0=h66ea3da_0
-  - openssl=1.1.1l=h9ed2024_0
+  - notebook=6.4.3=py38haa95532_0
+  - openssl=1.1.1l=h2bbff1b_0
   - packaging=21.0=pyhd3eb1b0_0
-  - pandas=1.3.3=py39h5008ddb_0
-  - pandocfilters=1.4.3=py39hecd8cb5_1
+  - pandocfilters=1.4.3=py38haa95532_1
   - parso=0.8.2=pyhd3eb1b0_0
-  - patsy=0.5.1=py39hecd8cb5_0
-  - pexpect=4.8.0=pyhd3eb1b0_3
   - pickleshare=0.7.5=pyhd3eb1b0_1003
-  - pip=21.2.4=py37hecd8cb5_0
+  - pip=21.0.1=py38haa95532_0
   - prometheus_client=0.11.0=pyhd3eb1b0_0
-  - ptyprocess=0.7.0=pyhd3eb1b0_2
+  - prompt-toolkit=3.0.20=pyhd3eb1b0_0
   - pycparser=2.20=py_2
   - pygments=2.10.0=pyhd3eb1b0_0
   - pyopenssl=20.0.1=pyhd3eb1b0_1
   - pyparsing=2.4.7=pyhd3eb1b0_0
-  - pyrsistent=0.18.0=py39h9ed2024_0
-  - pysocks=1.7.1=py39hecd8cb5_0
-  - python=3.9.7=h88f2d9e_1
+  - pyrsistent=0.17.3=py38he774522_0
+  - pysocks=1.7.1=py38haa95532_0
+  - python=3.8.11=h6244533_1
   - python-dateutil=2.8.2=pyhd3eb1b0_0
   - pytz=2021.1=pyhd3eb1b0_0
-  - pyzmq=22.2.1=py39h23ab428_1
-  - readline=8.1=h9ed2024_0
+  - pywin32=228=py38hbaba5e8_1
+  - pywinpty=0.5.7=py38_0
+  - pyzmq=22.2.1=py38hd77b12b_1
   - requests=2.26.0=pyhd3eb1b0_0
-  - scikit-learn=0.24.2=py39hb2f4e1b_0
-  - scipy=1.7.1=py39h88652d9_2
-  - seaborn=0.11.2=pyhd3eb1b0_0
   - send2trash=1.8.0=pyhd3eb1b0_1
-  - setuptools=58.0.4=py39hecd8cb5_0
+  - setuptools=58.0.4=py38haa95532_0
   - six=1.16.0=pyhd3eb1b0_0
-  - sniffio=1.2.0=py39hecd8cb5_1
-  - sqlite=3.36.0=hce871da_0
-  - statsmodels=0.12.2=py39h9ed2024_0
-  - terminado=0.9.4=py39hecd8cb5_0
+  - sniffio=1.2.0=py38haa95532_1
+  - sqlite=3.36.0=h2bbff1b_0
+  - terminado=0.9.4=py38haa95532_0
   - testpath=0.5.0=pyhd3eb1b0_0
-  - threadpoolctl=2.2.0=pyh0d69192_0
-  - tk=8.6.10=hb0a8c7a_0
-  - tornado=6.1=py39h9ed2024_0
+  - tornado=6.1=py38h2bbff1b_0
   - traitlets=5.1.0=pyhd3eb1b0_0
-  - tzdata=2021a=h5d7bf9c_0
   - urllib3=1.26.6=pyhd3eb1b0_1
+  - vc=14.2=h21ff451_1
+  - vs2015_runtime=14.27.29016=h5e58377_2
   - wcwidth=0.2.5=pyhd3eb1b0_0
-  - webencodings=0.5.1=py39hecd8cb5_1
+  - webencodings=0.5.1=py38_1
   - wheel=0.37.0=pyhd3eb1b0_1
-  - xz=5.2.5=h1de35cc_0
-  - yaml=0.2.5=haf1e3a3_0
-  - zeromq=4.3.4=h23ab428_0
+  - win_inet_pton=1.1.0=py38haa95532_0
+  - wincertstore=0.2=py38haa95532_2
+  - winpty=0.4.3=4
   - zipp=3.5.0=pyhd3eb1b0_0
-  - zlib=1.2.11=h1de35cc_3
-  - zstd=1.4.9=h322a384_0
   - pip:
-    - cycler==0.10.0
     - factor-analyzer==0.3.2
-    - install==1.3.4
-    - ipython==7.28.0
-    - kiwisolver==1.3.2
-    - matplotlib==3.4.3
-    - matplotlib-inline==0.1.3
-    - mca==1.0.3
+    - joblib==1.0.1
     - numpy==1.21.2
-    - pillow==8.3.2
-    - prince==0.7.1
-    - prompt-toolkit==3.0.20
-    - pyaescrypt==6.0.0
+    - pandas==1.3.3
+    - patsy==0.5.2
     - pyyaml==5.4.1
+    - scikit-learn==1.0
+    - scipy==1.7.1
+    - sklearn==0.0
     - stata-setup==0.1.2
-prefix: /Users/maciejnasinski/opt/anaconda3/envs/py39_aw
+    - statsmodels==0.13.0
+    - threadpoolctl==3.0.0
+prefix: c:\programy\anaconda\envs\py39_aw_wne
