@@ -1,6 +1,8 @@
-name: py39_aw_wne
+name: py38_aw_wne
 channels:
   - defaults
+  - conda-forge
+  - 'https://repo.continuum.io/pkgs/free'
 dependencies:
   - anyio=2.2.0=py38haa95532_2
   - argon2-cffi=20.1.0=py38h2bbff1b_1
@@ -104,4 +106,4 @@ dependencies:
     - stata-setup==0.1.2
     - statsmodels==0.13.0
     - threadpoolctl==3.0.0
-prefix: c:\programy\anaconda\envs\py39_aw_wne
+prefix: c:\programy\anaconda\envs\py38_aw_wne
