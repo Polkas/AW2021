@@ -43,7 +43,7 @@ MarkupSafe==2.0.1
 matplotlib==3.4.3
 matplotlib-inline==0.1.2
 mistune==0.8.4
-nbclassic==0.2.6
+nbclassic==0.2.8
 nbclient==0.5.3
 nbconvert==6.1.0
 nbdime==3.1.0
