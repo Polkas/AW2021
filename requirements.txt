@@ -60,6 +60,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.3.2
 pip==21.0.1
+prince==0.7.1
 prometheus-client==0.11.0
 prompt-toolkit==3.0.20
 ptyprocess==0.7.0
