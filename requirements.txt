@@ -44,7 +44,7 @@ MarkupSafe==2.0.1
 matplotlib==3.4.3
 matplotlib-inline==0.1.2
 mistune==0.8.4
-nbclassic==0.2.8
+nbclassic==0.2.6
 nbclient==0.5.3
 nbconvert==6.1.0
 nbdime==3.1.0
@@ -92,6 +92,7 @@ statsmodels==0.13.0
 terminado==0.9.4
 testpath==0.5.0
 threadpoolctl==3.0.0
+toml==0.10.2
 tornado==6.1
 traitlets==5.1.0
 typing-extensions==3.10.0.2
