@@ -38,7 +38,7 @@ Instalacja STATA 17 oraz Anaconda
 git clone https://github.com/Polkas/AW2021
 
 - Użycie `conda env create --file environment.yaml` lub Anaconda Navigator
-- Na prywatnych komputerach `conda create --yes --name py38_aw_wne python=3.8` i `pip3 install -r requirements.txt`
+- Na prywatnych komputerach `conda create --yes --name py38_aw_wne python=3.8` i `conda activate py38_aw_wne` i `pip install -r requirements.txt` i opcjonalnie inne pakiety np na komputerach WNE potrzebny byl jeszce pakiet pywin32 (conda install pywin32)
 
 Po otrzymaniu prosze umieści hasło w pliku ./spec.yaml w attrybucie password_pyaescrypt.
 W pliku ./spec.yaml nalezy uzupelnic sciezke do programu STATA oraz jego wersje.
