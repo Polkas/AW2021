@@ -1,0 +1,11 @@
+d canred.  Canonical redundancy.
+d Philip B. Ender 
+d Statistical Computing and Consulting
+d UCLA Academic Technology Services
+d ender@@ucla.edu
+d
+d Stata ado and hlp files in the package
+d distribution-date: 20050502
+f canred.ado
+f canred.hlp
+e
