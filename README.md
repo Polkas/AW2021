@@ -1,9 +1,5 @@
 Analiza Wielowymiarowa - WNE UW
 
-Hasło do odkodowania (pyAesCrypt) części zbiorów danch *.aes przekazane na zajęciach/pocztą elektroniczną (zajecia 4/5/7/8)
-Po otrzymaniu prosze umieści hasło w pliku ./spec.yaml w attrybucie password_pyaescrypt.
-W pliku ./spec.yaml nalezy uzupelnic sciezke do programu STATA oraz jego wersje.
-
 [USOS](https://usosweb.wne.uw.edu.pl/kontroler.php?_action=actionx:katalog2/przedmioty/pokazPrzedmiot\(prz_kod:2400-M1IiEPKAW\))
 
 Przedmioty kierunkowe (obowiązkowe) do wyboru - studia II stopnia IE  
